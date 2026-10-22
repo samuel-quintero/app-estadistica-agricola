@@ -14,8 +14,8 @@ import pandas as pd
 # ------------------------------------------------------------------
 # 0. Tus datos de identificación (ÚNICAS líneas que modificas)
 # ------------------------------------------------------------------
-codigo = "XXXXXXXXXX"            # <-- tu código estudiantil completo, entre comillas
-nombre = "Nombre Apellido"       # <-- tus nombres y apellidos
+codigo = "1034285837"            # <-- tu código estudiantil completo, entre comillas
+nombre = "Samuel David Quintero Palencia"       # <-- tus nombres y apellidos
 
 semilla = int(codigo) % 2**32            # la semilla depende de tu código
 rng = np.random.default_rng(semilla)     # generador de números aleatorios
